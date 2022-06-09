@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Users Database</title>
+</head>
+<body>
+    <main>
+        <h2 class="heading">Users Database</h2>
+
+        <!-- input wrap -->
+        <div class="search-section">
+            <input type="email" id="search" placeholder="search by name/username" 
+            onkeyup="searchUsersByUsername()">
+        </div>
+
+        <!-- Users List Section -->
+        <div class="users-list-section">
+           <ul id="users-list-container">
+               
+            
+            <!-- Note: the li tags are dynamic, used in the js  -->
+           </ul> 
+               
+        </div>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>
